@@ -1,0 +1,25 @@
+p {
+  font-family: montserrat;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.touchless-delivery {
+  cursor: pointer;
+}
+
+.touchless-delivery:hover {
+  text-decoration: underline;
+}
