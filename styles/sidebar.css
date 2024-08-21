@@ -33,3 +33,28 @@
   width: 24px;
   margin-bottom: 4px;
 }
+
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 240px;
+  }
+
+  .sidebar-item {
+    font-size: 14px;
+    font-weight: 500;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    height: 52px;
+
+    padding-left: 24px;
+  }
+
+  .sidebar-item img {
+    margin-bottom: 0;
+    margin-right: 24px;
+  }  
+  body {
+    padding-left: 264px;
+  }
+}
